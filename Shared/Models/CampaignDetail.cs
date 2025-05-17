@@ -48,4 +48,9 @@ public class CampaignDetail
             RemainingBudget -= amount;
             return true;
     }
+
+    public void AddToRemainingBudget(decimal amount)
+    {
+        RemainingBudget += amount;
+    }
 }

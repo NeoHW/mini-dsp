@@ -17,9 +17,19 @@ public class Program
         builder.Services.AddSingleton<ICampaignStore, CampaignStore>();
         builder.Services.AddSingleton<IBidStore, BidStore>();
         
+        // swagger
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+        
         var app = builder.Build();
         
-        app.MapGet("/", () => "DSP API is running");
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
+        
+        app.MapGet("/", () => Results.Redirect("/swagger"));
 
         app.MapPost("/users", (UserData user, IUserStore store) =>
         {
@@ -88,21 +98,25 @@ public class Program
                 BidAmount = bestBid
             };
             bidStore.AddBid(bid);
+            
+            // deduct first, add back if bid fails
+            var chosenCampaign = campaignStore.GetCampaignById(bestCampaignId);
+            chosenCampaign?.DeductFromRemainingBudget(bid.BidAmount);
 
             return Results.Ok(new BidDecision(request.BidId, "DSP", bestBid));
         });
 
         app.MapPost("/feedback", (BidFeedback feedback, ICampaignStore campaignStore, IBidStore bidStore) =>
         {
-            var bid = bidStore.GetBidById(feedback.BidId);
-
-            if (feedback.Win)
+            bidStore.AddFeedbackResult(feedback);
+            
+            if (!feedback.Win)
             {
+                var bid = bidStore.GetBidById(feedback.BidId);
                 var campaign = campaignStore.GetCampaignById(bid.CampaignId);
-                campaign?.DeductFromRemainingBudget(bid.BidAmount);
+                campaign?.AddToRemainingBudget(bid.BidAmount);
             }
 
-            bidStore.AddFeedbackResult(feedback);
             return Results.NoContent();
         });
 

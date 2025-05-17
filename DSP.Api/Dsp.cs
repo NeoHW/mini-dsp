@@ -1,4 +1,3 @@
-using Shared;
 using Shared.Models;
 using DSP.Api.Models;
 using DSP.Api.Stores;
@@ -64,6 +63,10 @@ public class Dsp
             _bidStore.AddBid(bidRecord);
 
             Console.WriteLine($"[DSP {_name}] Bidding {bidAmount} for campaign {campaignId}");
+            
+            // deduct money first, add back if needed during feedback
+            var chosenCampaign = _campaignStore.GetCampaignById(campaignId);
+            chosenCampaign?.DeductFromRemainingBudget(bidAmount);
 
             var decision = new BidDecision(request.BidId, _name, bidAmount);
             if (sender is Ssp ssp)
@@ -84,16 +87,13 @@ public class Dsp
             var result = feedback.Win ? "WON" : "LOST";
             _bidStore.AddFeedbackResult(feedback);
             Console.WriteLine($"[DSP {_name}] Feedback: Bid {feedback.BidId} - {result}");
-            
-            if (!feedback.Win) return;
-            
+
             var bid = _bidStore.GetBidById(feedback.BidId);
             var campaign = _campaignStore.GetCampaignById(bid.CampaignId);
             if (campaign == null) return;
-            if (!campaign.DeductFromRemainingBudget(bid.BidAmount))
-            {
-                Console.WriteLine($"[DSP {_name}] Campaign {bid.CampaignId} has insufficient budget");
-            }
+            
+            if (!feedback.Win)
+                campaign?.AddToRemainingBudget(bid.BidAmount); 
         }
         catch (Exception ex)
         {

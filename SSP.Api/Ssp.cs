@@ -8,6 +8,10 @@ namespace SSP.Api;
 
 public class Ssp
 {
+    public const int RequestIntervalInMs = 500;
+    public const int ResponseWaitTimeInMs = 200;
+    
+    
     private readonly Timer _timer;
     private readonly List<UserData> _users;
     public event EventHandler<BidRequest> NewBidRequest;
@@ -18,7 +22,7 @@ public class Ssp
     public Ssp(IUserStore userStore)
     {
         _users = userStore.GetAllUsersToList();
-        _timer = new Timer(1000);
+        _timer = new Timer(RequestIntervalInMs);
         _timer.Elapsed += EmitBidRequest;
         _timer.Start();
     }
@@ -47,14 +51,14 @@ public class Ssp
         var user = _users[new Random().Next(_users.Count)];
         var request = new BidRequest(bidId, user.UserId);
         
-        _bidDeadlines[bidId] = DateTime.UtcNow.AddMilliseconds(500);
+        _bidDeadlines[bidId] = DateTime.UtcNow.AddMilliseconds(ResponseWaitTimeInMs);
 
         // Notify all DSPs which subscribed
         NewBidRequest?.Invoke(this, request);
 
         _ = Task.Run(async () =>
         {
-            await Task.Delay(500); // Wait for DSPs to respond within 0.5 s
+            await Task.Delay(ResponseWaitTimeInMs); // Wait for DSPs to respond 
 
             if (_bidPool.TryRemove(bidId, out var winner))
             {

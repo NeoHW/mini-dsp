@@ -1,9 +1,12 @@
+using System.Text.Json.Serialization;
+
 namespace Shared.Models;
 
 public record UserData(
     string UserId,
     List<TargetingData> TargetingData);
 
+[JsonConverter(typeof(JsonStringEnumConverter))]
 public enum TargetingData
 {
     Male,

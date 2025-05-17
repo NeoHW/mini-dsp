@@ -1,175 +1,158 @@
-### Running the project
-```aiignore
-cd .\Simulation\
-dotnet run
-```
+# Mini-DSP Project
+This is a simulator for a Demand-Side Platform (DSP) and Supply-Side Platform (SSP), designed to demonstrate:
 
+* **Real-time bidding (RTB) workflow** – request, bid, feedback loops.
+* **Bit-flag audience targeting** for fast campaign matching.
+* **Concurrent, in-memory stores**, easily swappable with Redis or SQL
+---
 
-### Flow
+## 1. Architecture at a Glance
+
 ```mermaid
 sequenceDiagram
     autonumber
     loop every 1s
         participant SSP
-        participant DSP
-        SSP->>DSP: POST /bid (AvailableBidRequest)
-        DSP->>DSP: Evaluate all campaigns & pick best
-        DSP-->>SSP: BidDecision (bidId, bidAmt)
-        SSP->>SSP: Select highest bid across DSPs
-        SSP-->>DSP: POST /feedback (Win/Loss)
+        participant Alpha_DSP
+        participant Beta_DSP
+        participant Gamma_DSP
+
+        SSP->>Alpha_DSP: POST /bid (AvailableBidRequest)
+        Alpha_DSP->>Alpha_DSP: Evaluate all campaigns & pick best
+        Alpha_DSP-->>SSP: BidDecision (bidId, bidAmt)
+
+        SSP->>Beta_DSP: POST /bid (AvailableBidRequest)
+        Beta_DSP->>Beta_DSP: Evaluate all campaigns & pick best
+        Beta_DSP-->>SSP: BidDecision (bidId, bidAmt)
+
+        SSP->>Gamma_DSP: POST /bid (AvailableBidRequest)
+        Gamma_DSP->>Gamma_DSP: Evaluate all campaigns & pick best
+        Gamma_DSP-->>SSP: BidDecision (bidId, bidAmt)
+
+        SSP->>SSP: Select highest bid across DSPs (≤500ms)
+
+        SSP-->>Alpha_DSP: POST /feedback (Win/Loss)
+        SSP-->>Beta_DSP: POST /feedback (Win/Loss)
+        SSP-->>Gamma_DSP: POST /feedback (Win/Loss)
     end
 ```
 
-### APIs
+* **SSP** emits a `BidRequest` every 500 ms and waits 200 ms for responses.
+* Each **DSP** evaluates all eligible campaigns and responds with a BidDecision.
+* The **SSP** selects the highest bid and notifies all DSPs of the outcome.
+* Only the **winning DSP** has its campaign budget decremented.
 
-#### User‑Data Endpoints
+---
 
-| Verb & Path       | Body        | Response (200) |
-|-------------------|-------------|----------------|
-| `POST /users`     | `UserData`  | `UserData` (created) |
-| `GET /users/{id}` | –           | `UserData`     |
+## 2. Repo Layout
 
-#### Campaign Endpoints
+| Path              | What lives here                                         |
+|-------------------|---------------------------------------------------------|
+| **Shared/**       | Shared models (`BidRequest`, `CampaignDetail`, etc.)    |
+| **DSP.Api/**      | Minimal web API exposing bid, campaign & user endpoints |
+| **SSP.Api/**      | SSP event source + feedback fan-out                     |
+| **Simulation/**   | Console simulation wiring three DSPs to one SSP         |
+| ***.json**        |	Synthetic datasets for users and campaigns                            |
 
-| Verb & Path                          | Body                | Response        |
-|-------------------------------------|---------------------|-----------------|
-| `POST /campaigns`                   | `CampaignDetail`    | `CampaignDetail` (created) |
-| `GET /campaigns/{id}`               | –                   | `CampaignDetail` |
-| `PATCH /campaigns/{id}/budget`      | `{ "budget": 100 }` | `204 No Content` |
+---
 
+## 3. Quick Start
 
-#### Bidder Endpoints
+```bash
+# 1. Prerequisites
+dotnet --version   # Should be 9.0.x
 
-| Verb & Path         | Body           | Response        |
-|---------------------|----------------|-----------------|
-| `POST /bid`         | `BidRequest`   | `BidDecision`   |
-| `POST /feedback`    | `BidFeedback`  | `204 No Content` |
+# 2. Build all projects
+dotnet build mini-dsp.sln
 
-
-### Objective
-
-Build a simplified DSP with the following components:
-
-#### User Data Management
-- API to upload user data
-- API to read user data based on key
-- User data store
-
-#### Campaign Management
-- API to add campaigns
-- API to get campaign details based on key
-- API to update campaign budget
-- Campaign store
-
-#### Bidder
-- API to evaluate campaign with highest bid amount matching to bid request
-- API to receive bid feedback
-- Bids store
-
-#### User Data Store
-
-UserData
-- UserId
-- TargetingData[]
-
-TargetingData: { Male, Female, HighIncomeCategory, Age_band_25_to_35, Age_band_35_to_50, LivesInMetroArea, LivesInRegionalArea }
-
-#### Campaign Store
-
-CampaignDetail
-- CampaignId
-- Budget
-- RemainingBudget
-- BaseBid
-- BidLine[]
-
-BidLine
-- TargetingData[]
-- BidFactor
-
-#### Bids Store
-
-BidRequest
-- BidId
-- CampaignId
-- BidAmount
-
-BidFeedback
-- BidId
-- Win/Loss
-
-# Reference links
-
-- [GitLab CI Documentation](https://docs.gitlab.com/ee/ci/)
-- [.NET Hello World tutorial](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/)
-
-If you're new to .NET you'll want to check out the tutorial, but if you're
-already a seasoned developer considering building your own .NET app with GitLab,
-this should all look very familiar.
-
-## What's contained in this project
-
-The root of the repository contains the out of the `dotnet new console` command,
-which generates a new console application that just prints out "Hello, World."
-It's a simple example, but great for demonstrating how easy GitLab CI is to
-use with .NET. Check out the `Program.cs` and `dotnetcore.csproj` files to
-see how these work.
-
-In addition to the .NET Core content, there is a ready-to-go `.gitignore` file
-sourced from the .NET Core [.gitignore](https://github.com/dotnet/core/blob/master/.gitignore). This
-will help keep your repository clean of build files and other configuration.
-
-Finally, the `.gitlab-ci.yml` contains the configuration needed for GitLab
-to build your code. Let's take a look, section by section.
-
-First, we note that we want to use the official Microsoft .NET SDK image
-to build our project.
-
-```
-image: microsoft/dotnet:latest
+# 3. Launch the simulation
+cd Simulation
+dotnet run
 ```
 
-We're defining two stages here: `build`, and `test`. As your project grows
-in complexity you can add more of these.
+You should see logs such as:
 
 ```
-stages:
-    - build
-    - test
+[DSP Alpha] Received BidRequest for user-123
+[DSP Alpha] Bidding 2.55 for campaign 93f…
+[DSP Alpha] Feedback: Bid 3e7… – WON
 ```
 
-Next, we define our build job which simply runs the `dotnet build` command and
-identifies the `bin` folder as the output directory. Anything in the `bin` folder
-will be automatically handed off to future stages, and is also downloadable through
-the web UI.
+Press **Enter** to stop the simulation loop.
 
-```
-build:
-    stage: build
-    script:
-        - "dotnet build"
-    artifacts:
-      paths:
-        - bin/
+---
+
+## 4. Running APIs in Isolation
+
+### DSP API
+
+```bash
+cd DSP.Api
+dotnet run  # Default: http://localhost:5294
 ```
 
-Similar to the build step, we get our test output simply by running `dotnet test`.
+Key endpoints:
+### DSP API – Key Endpoints
 
+| Method | Path                                | Purpose                                     |
+|--------|-------------------------------------|---------------------------------------------|
+| `POST` | `/users`                             | Create or update a user                     |
+| `GET`  | `/users/{id}`                        | Retrieve user by ID                         |
+| `POST` | `/campaigns`                         | Register a new campaign                     |
+| `GET`  | `/campaigns/{id}`                    | Retrieve campaign by ID                     |
+| `PATCH`| `/campaigns/{id}/budget?newBudget=X` | Update campaign budget                      |
+| `POST` | `/bid`                               | Evaluate incoming bid request and respond   |
+| `POST` | `/feedback`                          | Send feedback (win/loss) and manage refunds |
+
+
+### SSP API
+
+The SSP is instantiated programmatically in `Simulation/Program.cs`.
+
+To run it independently, wrap Ssp in an HTTP or gRPC host – the logic is framework-agnostic.
+
+---
+
+## 5. Data Sets
+
+| File                     | Records | Notes                                                                               |
+|--------------------------|---------|-------------------------------------------------------------------------------------|
+| `Shared/users.json`      | 30      | Randomised demographic + location flags generated by `generate_users.py`            |
+| `Shared/campaign_*.json` | 5       | Five campaigns with densely populated bidLines generated by `generate_campaigns.py` |
+
+Loaders live in `Shared/Utilities` and return strongly typed lists.  
+
+---
+
+## 6. Core Algorithms
+
+### Audience Matching
+
+```csharp
+var userFlags = TargetingExtensions.ToFlags(user.TargetingData);
+var bidFlags  = TargetingExtensions.ToFlags(bidLine.TargetingData);
+bool match = (userFlags & bidFlags) == bidFlags;
 ```
-test:
-    stage: test
-    script: 
-        - "dotnet test"
+
+A perfect superset match is required.
+
+Partial overlaps do not qualify – all bidLine criteria must be met.
+
+### Bid Calculation
+
+```csharp
+decimal bid = campaign.BaseBid * bidLine.BidFactor;
 ```
+#### Budget Deduction Flow
 
-This should be enough to get you started. There are many, many powerful options
-for your `.gitlab-ci.yml`. You can read about them in our documentation
-[here](https://docs.gitlab.com/ee/ci/yaml/).
+1. **Optimistic Deduction:**  
+   When a DSP places a bid, it **tentatively deducts** the bid amount from the campaign's budget.
 
-## Developing with Gitpod
+2. **Win Confirmation:**  
+   If the bid **wins**, the deduction becomes **final**.
 
-This template repository also has a fully-automated dev setup for [Gitpod](https://docs.gitlab.com/ee/integration/gitpod.html).
+3. **Loss Refund:**  
+   If the bid **loses**, the DSP **refunds** the deducted amount immediately.
 
-The `.gitpod.yml` ensures that, when you open this repository in Gitpod, you'll get a cloud workspace with .NET Core pre-installed, and your project will automatically be built and start running.
+This ensures real-time bidding performance while maintaining accurate and thread-safe budget tracking.
 
-Godspeed!
