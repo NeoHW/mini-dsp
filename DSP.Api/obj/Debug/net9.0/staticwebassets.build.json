@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "5GApZxnOOVky2v34vzTQFCqhmSNsFL+uqRJhd1cQ6Vc=",
+  "Source": "DSP.Api",
+  "BasePath": "_content/DSP.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\dev\\mini-dsp\\SSP.Api\\SSP.Api.csproj",
+      "Version": 2,
+      "Source": "SSP.Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

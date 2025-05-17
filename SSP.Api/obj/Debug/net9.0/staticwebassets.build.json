@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8dIcXTaONvm20XN+E+RrqhnCAPZJKUuvusPucIjLpZY=",
+  "Source": "SSP.Api",
+  "BasePath": "_content/SSP.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

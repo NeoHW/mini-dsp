@@ -1,0 +1,255 @@
+[
+  {
+    "UserId": "user-001",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-002",
+    "TargetingData": [
+      "Female",
+      "AgeBand25To35",
+      "LivesInMetroArea"
+    ]
+  },
+  {
+    "UserId": "user-003",
+    "TargetingData": [
+      "Male",
+      "AgeBand25To35",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-004",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea"
+    ]
+  },
+  {
+    "UserId": "user-005",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-006",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-007",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-008",
+    "TargetingData": [
+      "Female",
+      "AgeBand25To35",
+      "LivesInMetroArea"
+    ]
+  },
+  {
+    "UserId": "user-009",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-010",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-011",
+    "TargetingData": [
+      "Female",
+      "AgeBand25To35",
+      "LivesInRegionalArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-012",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea"
+    ]
+  },
+  {
+    "UserId": "user-013",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-014",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-015",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-016",
+    "TargetingData": [
+      "Male",
+      "AgeBand25To35",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-017",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-018",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea"
+    ]
+  },
+  {
+    "UserId": "user-019",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-020",
+    "TargetingData": [
+      "Male",
+      "AgeBand25To35",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-021",
+    "TargetingData": [
+      "Male",
+      "AgeBand25To35",
+      "LivesInMetroArea"
+    ]
+  },
+  {
+    "UserId": "user-022",
+    "TargetingData": [
+      "Female",
+      "AgeBand25To35",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-023",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInRegionalArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-024",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-025",
+    "TargetingData": [
+      "Male",
+      "AgeBand25To35",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-026",
+    "TargetingData": [
+      "Male",
+      "AgeBand25To35",
+      "LivesInMetroArea"
+    ]
+  },
+  {
+    "UserId": "user-027",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInRegionalArea"
+    ]
+  },
+  {
+    "UserId": "user-028",
+    "TargetingData": [
+      "Male",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-029",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  },
+  {
+    "UserId": "user-030",
+    "TargetingData": [
+      "Female",
+      "AgeBand35To50",
+      "LivesInMetroArea",
+      "HighIncomeCategory"
+    ]
+  }
+]

@@ -1,0 +1,5457 @@
+[
+  {
+    "CampaignId": "6ebc600f-ae2d-4b3d-9e36-c089da8d71b7",
+    "Budget": 100000,
+    "RemainingBudget": 100000,
+    "BaseBid": 100,
+    "BidLines": [
+      {
+        "TargetingData": [
+          "Male"
+        ],
+        "BidFactor": 3.36
+      },
+      {
+        "TargetingData": [
+          "Female"
+        ],
+        "BidFactor": 3.46
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.19
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.94
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.63
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.45
+      },
+      {
+        "TargetingData": [
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.94
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female"
+        ],
+        "BidFactor": 3.55
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.86
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.87
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.92
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.67
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.17
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.4
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.63
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.03
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.72
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.18
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.53
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.07
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.29
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.2
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.48
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.08
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.82
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.79
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.41
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.93
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.66
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.18
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.21
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.99
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.27
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.57
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.6
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.36
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.1
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.72
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.29
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.34
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.9
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.27
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.21
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.16
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.59
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.58
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.81
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.51
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.7
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.9
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.95
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.72
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.15
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.23
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.39
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.74
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.61
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.64
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.47
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.89
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.4
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.53
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.94
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.79
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.53
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.32
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.24
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.78
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.1
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.9
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.94
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.42
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.15
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.15
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.89
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.67
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.92
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.96
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.85
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.2
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.18
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.48
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.0
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.13
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.53
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.37
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.36
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.4
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.75
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.26
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.26
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.12
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.44
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.55
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.99
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.87
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.02
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.89
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.8
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.72
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.8
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.97
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.49
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.91
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.76
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.94
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.78
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.86
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.64
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.97
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.76
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.79
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.91
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.61
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.71
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.01
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.01
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.26
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.32
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.62
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.41
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.98
+      }
+    ]
+  },
+  {
+    "CampaignId": "004692cc-54bd-44ad-b01d-5c629ae4a49e",
+    "Budget": 100000,
+    "RemainingBudget": 100000,
+    "BaseBid": 100,
+    "BidLines": [
+      {
+        "TargetingData": [
+          "Male"
+        ],
+        "BidFactor": 1.51
+      },
+      {
+        "TargetingData": [
+          "Female"
+        ],
+        "BidFactor": 1.16
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 2.56
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.19
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.01
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.69
+      },
+      {
+        "TargetingData": [
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.76
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female"
+        ],
+        "BidFactor": 1.31
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 2.6
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.57
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.64
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.83
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.86
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 1.29
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.27
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.15
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.76
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.75
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.13
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.71
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.63
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.4
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.39
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.35
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.05
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.36
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.55
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.97
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 2.93
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.65
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.18
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.23
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.74
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.69
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.75
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.71
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.72
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.19
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.03
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.41
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.58
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.68
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.82
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.23
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.5
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.17
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.06
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.47
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.61
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.16
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.22
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.32
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.51
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.37
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.35
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.4
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.35
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.11
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.72
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.08
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.35
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.4
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.44
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.2
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.74
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.67
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.17
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.6
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.44
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.02
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.12
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.86
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.62
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.11
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.68
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.59
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.32
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.18
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.91
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.45
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.52
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.67
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.71
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.21
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.27
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.68
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.06
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.76
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.82
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.32
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.1
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.39
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.72
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.09
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.28
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.87
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.71
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.92
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.17
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.4
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.24
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.08
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.26
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.11
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.43
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.31
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.95
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.15
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.33
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.24
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.24
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.6
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.44
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.14
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.5
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.88
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.85
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.29
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.64
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.89
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.0
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.64
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.73
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.1
+      }
+    ]
+  },
+  {
+    "CampaignId": "c2f61458-cf9a-4d6d-8f06-03b31907025f",
+    "Budget": 100000,
+    "RemainingBudget": 100000,
+    "BaseBid": 100,
+    "BidLines": [
+      {
+        "TargetingData": [
+          "Male"
+        ],
+        "BidFactor": 1.76
+      },
+      {
+        "TargetingData": [
+          "Female"
+        ],
+        "BidFactor": 1.62
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.28
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.51
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.16
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.73
+      },
+      {
+        "TargetingData": [
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.64
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 2.34
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.88
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.9
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.8
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.03
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.07
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.54
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.43
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.58
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.41
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.72
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.24
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.82
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.49
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.28
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.1
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.16
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.17
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.96
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.84
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 1.72
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.96
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.61
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.94
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.31
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.93
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.61
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.22
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.57
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.65
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.82
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.26
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.28
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.19
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.44
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.27
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.8
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.06
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.12
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.06
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.49
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.69
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.36
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.76
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.88
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.39
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.03
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.41
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.32
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.41
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.94
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.65
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.81
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.63
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.86
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.57
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.16
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.01
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.34
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.51
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.73
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.48
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.71
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.61
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.89
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.68
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.38
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.42
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.8
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.33
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.42
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.45
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.88
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.78
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.13
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.36
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.77
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.7
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.5
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.98
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.37
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.88
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.4
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.16
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.66
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.11
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.71
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.41
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.24
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.7
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.4
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.71
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.24
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.75
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.04
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.1
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.59
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.67
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.96
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.38
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.68
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.54
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.5
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.69
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.22
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.38
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.22
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.27
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.58
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.22
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.35
+      }
+    ]
+  },
+  {
+    "CampaignId": "dca0beaf-3a2d-4f2e-9feb-cd0041b7c51f",
+    "Budget": 100000,
+    "RemainingBudget": 100000,
+    "BaseBid": 100,
+    "BidLines": [
+      {
+        "TargetingData": [
+          "Male"
+        ],
+        "BidFactor": 1.89
+      },
+      {
+        "TargetingData": [
+          "Female"
+        ],
+        "BidFactor": 3.75
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.72
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.85
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.76
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.48
+      },
+      {
+        "TargetingData": [
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.61
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female"
+        ],
+        "BidFactor": 2.06
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 1.92
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.66
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.97
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.09
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.85
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.54
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.72
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.9
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.8
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.05
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.07
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.63
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.3
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.65
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.39
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.99
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.63
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.7
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.92
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.92
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 1.54
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.34
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.48
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.62
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.31
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.98
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.55
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.82
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.55
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.29
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.06
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.24
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.78
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.01
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.38
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.28
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.61
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.5
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.04
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.19
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.85
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.53
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.31
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.67
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.14
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.96
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.25
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.6
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.8
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.79
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.77
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.66
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.14
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.03
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.53
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.38
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.56
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.24
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.76
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.1
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.76
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.7
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.08
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.85
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.91
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.27
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.42
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.79
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.66
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.5
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.05
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.91
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.9
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.85
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.13
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.19
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.48
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.75
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.68
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.26
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.22
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.28
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.83
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.79
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.33
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.09
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.27
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.58
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.54
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.85
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.19
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.34
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.7
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.7
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.85
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.87
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.92
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.17
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.23
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.18
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.96
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.74
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.54
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.12
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.62
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.77
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.7
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.49
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.65
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.65
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.09
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.1
+      }
+    ]
+  },
+  {
+    "CampaignId": "988948bd-3916-4828-82c5-e1dbc524e3dd",
+    "Budget": 100000,
+    "RemainingBudget": 100000,
+    "BaseBid": 100,
+    "BidLines": [
+      {
+        "TargetingData": [
+          "Male"
+        ],
+        "BidFactor": 2.42
+      },
+      {
+        "TargetingData": [
+          "Female"
+        ],
+        "BidFactor": 1.59
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 2.75
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.47
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.75
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.5
+      },
+      {
+        "TargetingData": [
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.38
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female"
+        ],
+        "BidFactor": 2.41
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 3.85
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.23
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.97
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.57
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 1.21
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.66
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.45
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.19
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.6
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.84
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.63
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.22
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.38
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.79
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.64
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.86
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.5
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.77
+      },
+      {
+        "TargetingData": [
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.7
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory"
+        ],
+        "BidFactor": 1.32
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 1.35
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.87
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.66
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.05
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.82
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.45
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.75
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.11
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.0
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.26
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.47
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.64
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.89
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 3.62
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.71
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.61
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.96
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.82
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.6
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.69
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.88
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.25
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.87
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.18
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.42
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.71
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.17
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.33
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.51
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.15
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.91
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.04
+      },
+      {
+        "TargetingData": [
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.76
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35"
+        ],
+        "BidFactor": 2.8
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 3.69
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.14
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.72
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.36
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.48
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.9
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.28
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.75
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.73
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.64
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.03
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.39
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.62
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.3
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.97
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.73
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.96
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.02
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.99
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 1.98
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.89
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.33
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.58
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.52
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.69
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.49
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.64
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.48
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.03
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.01
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.26
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.46
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.75
+      },
+      {
+        "TargetingData": [
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.73
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50"
+        ],
+        "BidFactor": 2.07
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 1.15
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.36
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.91
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.36
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.31
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.18
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.88
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.31
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.2
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 3.41
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.84
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.23
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.56
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.67
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.96
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.87
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.14
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.84
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 1.74
+      },
+      {
+        "TargetingData": [
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.58
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea"
+        ],
+        "BidFactor": 2.1
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.97
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.75
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.51
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 2.37
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.57
+      },
+      {
+        "TargetingData": [
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.92
+      },
+      {
+        "TargetingData": [
+          "Male",
+          "Female",
+          "HighIncomeCategory",
+          "AgeBand25To35",
+          "AgeBand35To50",
+          "LivesInMetroArea",
+          "LivesInRegionalArea"
+        ],
+        "BidFactor": 3.7
+      }
+    ]
+  }
+]

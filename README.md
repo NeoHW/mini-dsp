@@ -1,12 +1,49 @@
-# Introduction
+### Running the project
+```aiignore
+cd .\Simulation\
+dotnet run
+```
 
-Welcome to TTD! 
 
-Your first mission, should you choose to accept it, is to build a “mini” DSP that will help you:
-- gain a basic understanding of the AdTech ecosystem from an engineer’s point-of-view,
-- learn what TTD does in a hands-on manner,
-- get familiar with C# & .NET way of doing things, and
-- last but not least, bond with your fellow groupmates.
+### Flow
+```mermaid
+sequenceDiagram
+    autonumber
+    loop every 1s
+        participant SSP
+        participant DSP
+        SSP->>DSP: POST /bid (AvailableBidRequest)
+        DSP->>DSP: Evaluate all campaigns & pick best
+        DSP-->>SSP: BidDecision (bidId, bidAmt)
+        SSP->>SSP: Select highest bid across DSPs
+        SSP-->>DSP: POST /feedback (Win/Loss)
+    end
+```
+
+### APIs
+
+#### User‑Data Endpoints
+
+| Verb & Path       | Body        | Response (200) |
+|-------------------|-------------|----------------|
+| `POST /users`     | `UserData`  | `UserData` (created) |
+| `GET /users/{id}` | –           | `UserData`     |
+
+#### Campaign Endpoints
+
+| Verb & Path                          | Body                | Response        |
+|-------------------------------------|---------------------|-----------------|
+| `POST /campaigns`                   | `CampaignDetail`    | `CampaignDetail` (created) |
+| `GET /campaigns/{id}`               | –                   | `CampaignDetail` |
+| `PATCH /campaigns/{id}/budget`      | `{ "budget": 100 }` | `204 No Content` |
+
+
+#### Bidder Endpoints
+
+| Verb & Path         | Body           | Response        |
+|---------------------|----------------|-----------------|
+| `POST /bid`         | `BidRequest`   | `BidDecision`   |
+| `POST /feedback`    | `BidFeedback`  | `204 No Content` |
 
 
 ### Objective
@@ -79,7 +116,7 @@ use with .NET. Check out the `Program.cs` and `dotnetcore.csproj` files to
 see how these work.
 
 In addition to the .NET Core content, there is a ready-to-go `.gitignore` file
-sourced from the the .NET Core [.gitignore](https://github.com/dotnet/core/blob/master/.gitignore). This
+sourced from the .NET Core [.gitignore](https://github.com/dotnet/core/blob/master/.gitignore). This
 will help keep your repository clean of build files and other configuration.
 
 Finally, the `.gitlab-ci.yml` contains the configuration needed for GitLab
