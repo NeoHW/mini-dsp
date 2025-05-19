@@ -99,9 +99,16 @@ public class Program
             };
             bidStore.AddBid(bid);
             
-            // deduct first, add back if bid fails
+            // Spend budget when bidding, will be refunded if bid is not won
             var chosenCampaign = campaignStore.GetCampaignById(bestCampaignId);
-            chosenCampaign?.DeductFromRemainingBudget(bid.BidAmount);
+            if (chosenCampaign != null)
+            {
+                var success = chosenCampaign.SpendBudget(bestBid);
+                if (!success)
+                {
+                    return Results.BadRequest("Insufficient budget");
+                }
+            };
 
             return Results.Ok(new BidDecision(request.BidId, "DSP", bestBid));
         });
@@ -114,7 +121,7 @@ public class Program
             {
                 var bid = bidStore.GetBidById(feedback.BidId);
                 var campaign = campaignStore.GetCampaignById(bid.CampaignId);
-                campaign?.AddToRemainingBudget(bid.BidAmount);
+                campaign?.RefundBudget(bid.BidAmount);
             }
 
             return Results.NoContent();

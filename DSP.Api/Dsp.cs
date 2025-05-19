@@ -64,9 +64,17 @@ public class Dsp
 
             Console.WriteLine($"[DSP {_name}] Bidding {bidAmount} for campaign {campaignId}");
             
-            // deduct money first, add back if needed during feedback
+            // Spend budget when bidding, will be refunded if bid is not won
             var chosenCampaign = _campaignStore.GetCampaignById(campaignId);
-            chosenCampaign?.DeductFromRemainingBudget(bidAmount);
+            if (chosenCampaign != null)
+            {
+                var success = chosenCampaign.SpendBudget(bidAmount);
+                if (!success)
+                {
+                    Console.WriteLine($"[DSP {_name}] Failed to bid due to insufficient budget for campaign {campaignId}");
+                    return;
+                }
+            }
 
             var decision = new BidDecision(request.BidId, _name, bidAmount);
             if (sender is Ssp ssp)
@@ -88,12 +96,14 @@ public class Dsp
             _bidStore.AddFeedbackResult(feedback);
             Console.WriteLine($"[DSP {_name}] Feedback: Bid {feedback.BidId} - {result}");
 
+            if (feedback.Win) return;
+            
+            // Only refund if bid was lost
             var bid = _bidStore.GetBidById(feedback.BidId);
             var campaign = _campaignStore.GetCampaignById(bid.CampaignId);
             if (campaign == null) return;
-            
-            if (!feedback.Win)
-                campaign?.AddToRemainingBudget(bid.BidAmount); 
+            campaign.RefundBudget(bid.BidAmount);
+            // Console.WriteLine($"[DSP {_name}] Refunded {bid.BidAmount} to campaign {bid.CampaignId}");
         }
         catch (Exception ex)
         {
@@ -125,17 +135,15 @@ public class Dsp
             if (campaignBidAmount == decimal.MinValue || campaignBidAmount > campaign.RemainingBudget)
                 continue;
 
-            if (campaignBidAmount > bestBid)
-            {
-                bestBid = campaignBidAmount;
-                bestCampaignId = campaign.CampaignId;
-            }
+            if (campaignBidAmount <= bestBid) continue;
+            bestBid = campaignBidAmount;
+            bestCampaignId = campaign.CampaignId;
         }
 
         return (bestCampaignId, bestBid);
     }
-    
-    public bool DoesUserMatchBidLine(UserData user, BidLine bidLine)
+
+    private static bool DoesUserMatchBidLine(UserData user, BidLine bidLine)
     {
         var userFlags = TargetingExtensions.ToFlags(user.TargetingData);
         var bidFlags = TargetingExtensions.ToFlags(bidLine.TargetingData);
@@ -143,7 +151,7 @@ public class Dsp
         return (userFlags & bidFlags) == bidFlags;
     }
     
-    private decimal CalculateBidAmount(CampaignDetail campaign, BidLine bidLine)
+    private static decimal CalculateBidAmount(CampaignDetail campaign, BidLine bidLine)
     {
         return campaign.BaseBid * bidLine.BidFactor;
     }

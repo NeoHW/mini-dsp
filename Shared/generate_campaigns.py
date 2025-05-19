@@ -30,10 +30,9 @@ def generate_campaign():
             "BidFactor": round(random.uniform(1.1, 4.0), 2)
         }
         bid_lines.append(bid_line)
-    return {
+    return{
         "CampaignId": str(uuid.uuid4()),
-        "Budget": 100000,
-        "RemainingBudget": 100000,
+        "BudgetCap": 100000,
         "BaseBid": 100,
         "BidLines": bid_lines
     }
