@@ -167,6 +167,24 @@ decimal RemainingBudget => Math.Max(BudgetCap - BudgetSpent, 0);
 
 This prevents **overdrafts** even under high concurrency because the worst-case remaining budget seen by the bidding loop is *under-estimated*, never over-estimated.
 
+> **Note: We're using a 1PA (First-Price Auction) model.**  
+> This means the winning DSP pays exactly what it bids — unlike traditional RTB setups that use 2PA (Second-Price Auction), where the winner pays slightly more than the second-highest bid.
+>
+> In 1PA, **bid shading strategies** are often used to avoid overpaying, but for now we use direct `BaseBid * BidFactor` pricing for clarity.  
+> This also makes budget accounting more deterministic and testable.
+
+```mermaid
+sequenceDiagram
+    participant SSP
+    participant DSP_A as DSP A (Bids 5.00)
+    participant DSP_B as DSP B (Bids 4.50)
+    participant DSP_C as DSP C (Bids 3.75)
+
+    SSP->>DSP_A: You win the auction!
+    Note right of DSP_A: 1PA: Pays 5.00<br>2PA: Would pay 4.51
+```
+
+
 ---
 
 ### Audience Matching

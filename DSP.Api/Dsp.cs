@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Shared.Models;
 using DSP.Api.Models;
 using DSP.Api.Stores;
@@ -11,28 +12,28 @@ public class Dsp
     private readonly ICampaignStore _campaignStore;
     private readonly IUserStore _userStore;
     private readonly IBidStore _bidStore;
-    
+
     public Dsp(string name, IUserStore userStore, List<CampaignDetail> campaigns)
     {
         _name = name;
         _userStore = userStore;
         _campaignStore = new CampaignStore();
         _bidStore = new BidStore();
-        
+
         foreach (var campaign in campaigns)
         {
             _campaignStore.AddCampaign(campaign);
         }
     }
-    
+
     // Subscribes to an SSP
     public void SubscribeTo(Ssp ssp)
     {
         Console.WriteLine($"[DSP {_name}] Subscribing to SSP");
         ssp.NewBidRequest += OnBidRequestReceived;
         ssp.SubscribeToFeedback(_name, OnFeedbackReceived);
-    } 
-    
+    }
+
     public void OnBidRequestReceived(object? sender, BidRequest request)
     {
         try
@@ -47,7 +48,7 @@ public class Dsp
             }
 
             var (campaignId, bidAmount) = EvaluateBestBid(request);
-            
+
             if (campaignId == Guid.Empty)
             {
                 Console.WriteLine($"[DSP {_name}] No matching campaign found for user {request.UserId}");
@@ -63,7 +64,7 @@ public class Dsp
             _bidStore.AddBid(bidRecord);
 
             Console.WriteLine($"[DSP {_name}] Bidding {bidAmount} for campaign {campaignId}");
-            
+
             // Spend budget when bidding, will be refunded if bid is not won
             var chosenCampaign = _campaignStore.GetCampaignById(campaignId);
             if (chosenCampaign != null)
@@ -97,9 +98,11 @@ public class Dsp
             Console.WriteLine($"[DSP {_name}] Feedback: Bid {feedback.BidId} - {result}");
 
             if (feedback.Win) return;
-            
+
             // Only refund if bid was lost
             var bid = _bidStore.GetBidById(feedback.BidId);
+            Debug.Assert(bid != null, nameof(bid) + " != null");
+
             var campaign = _campaignStore.GetCampaignById(bid.CampaignId);
             if (campaign == null) return;
             campaign.RefundBudget(bid.BidAmount);
@@ -118,11 +121,11 @@ public class Dsp
         var bestCampaignId = Guid.Empty;
 
         var allCampaigns = _campaignStore.GetAll();
-        
+
         foreach (var campaign in allCampaigns)
         {
             var campaignBidAmount = decimal.MinValue;
-            
+
             foreach (var bidLine in campaign.BidLines)
             {
                 if (DoesUserMatchBidLine(userData, bidLine))
@@ -131,7 +134,7 @@ public class Dsp
                     break;
                 }
             }
-            
+
             if (campaignBidAmount == decimal.MinValue || campaignBidAmount > campaign.RemainingBudget)
                 continue;
 
@@ -143,14 +146,15 @@ public class Dsp
         return (bestCampaignId, bestBid);
     }
 
-    private static bool DoesUserMatchBidLine(UserData user, BidLine bidLine)
+    private static bool DoesUserMatchBidLine(UserData? user, BidLine bidLine)
     {
+        if (user == null) return false;
         var userFlags = TargetingExtensions.ToFlags(user.TargetingData);
         var bidFlags = TargetingExtensions.ToFlags(bidLine.TargetingData);
 
         return (userFlags & bidFlags) == bidFlags;
     }
-    
+
     private static decimal CalculateBidAmount(CampaignDetail campaign, BidLine bidLine)
     {
         return campaign.BaseBid * bidLine.BidFactor;

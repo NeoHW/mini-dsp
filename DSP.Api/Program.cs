@@ -1,6 +1,3 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using DSP.Api.Models;
 using DSP.Api.Stores;
 using Shared.Models;
@@ -12,23 +9,23 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-        
+
         builder.Services.AddSingleton<IUserStore, UserStore>();
         builder.Services.AddSingleton<ICampaignStore, CampaignStore>();
         builder.Services.AddSingleton<IBidStore, BidStore>();
-        
+
         // swagger
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        
+
         var app = builder.Build();
-        
+
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-        
+
         app.MapGet("/", () => Results.Redirect("/swagger"));
 
         app.MapPost("/users", (UserData user, IUserStore store) =>
@@ -98,7 +95,7 @@ public class Program
                 BidAmount = bestBid
             };
             bidStore.AddBid(bid);
-            
+
             // Spend budget when bidding, will be refunded if bid is not won
             var chosenCampaign = campaignStore.GetCampaignById(bestCampaignId);
             if (chosenCampaign != null)
@@ -116,7 +113,7 @@ public class Program
         app.MapPost("/feedback", (BidFeedback feedback, ICampaignStore campaignStore, IBidStore bidStore) =>
         {
             bidStore.AddFeedbackResult(feedback);
-            
+
             if (!feedback.Win)
             {
                 var bid = bidStore.GetBidById(feedback.BidId);

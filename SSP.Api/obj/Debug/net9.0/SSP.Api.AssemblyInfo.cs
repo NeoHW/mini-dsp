@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSP.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5921d9df8592aca034230426ed199a0b459ccc28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+627485173197820ec959e64850f656395bc0b22e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSP.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSP.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

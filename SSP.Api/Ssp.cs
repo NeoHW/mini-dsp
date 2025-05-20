@@ -10,15 +10,15 @@ public class Ssp
 {
     public const int RequestIntervalInMs = 500;
     public const int ResponseWaitTimeInMs = 200;
-    
-    
+
+
     private readonly Timer _timer;
     private readonly List<UserData> _users;
-    public event EventHandler<BidRequest> NewBidRequest;
+    public event EventHandler<BidRequest>? NewBidRequest;
     private readonly ConcurrentDictionary<string, Action<BidFeedback>> _feedbackSubscribers = new();
     private readonly ConcurrentDictionary<Guid, BidDecision> _bidPool = new(); // Key = RequestId, Value = List of decisions
     private readonly ConcurrentDictionary<Guid, DateTime> _bidDeadlines = new();
-    
+
     public Ssp(IUserStore userStore)
     {
         _users = userStore.GetAllUsersToList();
@@ -50,7 +50,7 @@ public class Ssp
         var bidId = Guid.NewGuid();
         var user = _users[new Random().Next(_users.Count)];
         var request = new BidRequest(bidId, user.UserId);
-        
+
         _bidDeadlines[bidId] = DateTime.UtcNow.AddMilliseconds(ResponseWaitTimeInMs);
 
         // Notify all DSPs which subscribed
@@ -58,7 +58,7 @@ public class Ssp
 
         _ = Task.Run(async () =>
         {
-            await Task.Delay(ResponseWaitTimeInMs); // Wait for DSPs to respond 
+            await Task.Delay(ResponseWaitTimeInMs); // Wait for DSPs to respond
 
             if (_bidPool.TryRemove(bidId, out var winner))
             {

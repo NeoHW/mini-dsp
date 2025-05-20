@@ -16,7 +16,12 @@ public static class CampaignLoader
 
         var json = File.ReadAllText(path);
         var rawCampaigns = JsonSerializer.Deserialize<List<CampaignDetail>>(json, options);
-        
+
+        if (rawCampaigns == null)
+        {
+            throw new InvalidDataException("Failed to deserialize campaigns from file.");
+        }
+
         return rawCampaigns;
     }
 }
