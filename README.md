@@ -26,7 +26,7 @@ This is a simulator for a Demand-Side Platform (DSP) and Supply-Side Platform (S
 ```mermaid
 sequenceDiagram
     autonumber
-    loop every 1s
+    loop every 500ms
         participant SSP
         participant Alpha_DSP
         participant Beta_DSP
@@ -44,7 +44,7 @@ sequenceDiagram
         Gamma_DSP->>Gamma_DSP: Evaluate all campaigns & pick best
         Gamma_DSP-->>SSP: BidDecision (bidId, bidAmt)
 
-        SSP->>SSP: Select highest bid across DSPs (≤500ms)
+        SSP->>SSP: Select highest bid across DSPs (≤200ms)
 
         SSP-->>Alpha_DSP: POST /feedback (Win/Loss)
         SSP-->>Beta_DSP: POST /feedback (Win/Loss)
